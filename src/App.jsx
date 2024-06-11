@@ -3,7 +3,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import portfolioimg1 from './src/assets/image/portfolioimg1.png'
+import portfolioimg1 from '/src/assets/image/portfolioimg1.png'
+import flagBrasil from '/src/assets/image/flagBrasil.png'
+import flagus from '/src/assets/image/flagus.png'
 
 function App() {
 
@@ -14,11 +16,11 @@ function App() {
         <div className="welcome">
             <div className="self-container">
                 <div className="self">
-                    <img src={portfolioimg1} alt="" />
+                    <img src={portfolioimg1} alt="Rafael Justino" />
                 </div>
                 <div className="languages">
-                    <span><img src="./src/assets/image/flagBrasil.png" alt="" /> PT-BR nativo </span>
-                    <span><img src="./src/assets/image/flag-us.png" alt="" /> EN intermediário </span>
+                    <span><img src={flagBrasil} alt="" /> PT-BR nativo </span>
+                    <span><img src={flagus} alt="" /> EN intermediário </span>
                 </div>
             </div>
 
