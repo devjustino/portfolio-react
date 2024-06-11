@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200..700&display=swap');
+
+/* margin: 2rem 15rem; */
+
+.header {
+    width: 100%;
+    height: 50rem;
+    border: 1px solid #fff;
+    border-radius: 3%;
+    background-color: #1f1f1f;
+    color: #fff;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-container h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: #fff;
+}
+
+.welcome-container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #7e7e7e;
+}
+
+.self {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.self img {
+    height: 20rem;
+    border-radius: 50%;
+    border: 3px solid #7e7e7e;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.languages span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    gap: .3rem;
+    height: 2rem;
+    color: #7e7e7e;
+}
+
+.languages img {
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scores img {
+    margin: 1rem;
+    filter: grayscale(70%);
+}
+
+.scores-unit {
+    height: 1.5rem;
+    width: 10rem;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .scores-measure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+        height: 1.5rem;
+        border: 1px solid linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+        background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-size: 12px;
+        
+
+        &.scores-0 {
+            width: 15%;
+        }
+
+        &.scores-1 {
+            width: 40%;
+        }
+
+        &.scores-2 {
+            width: 70%;
+        }
+
+        &.scores-3 {
+            width: 100%;
+        }
+    }
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+.btn-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7e7e7e;
+}
+
